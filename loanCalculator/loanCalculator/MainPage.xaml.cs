@@ -18,7 +18,7 @@ namespace loanCalculator
         void OnButtonClicked(object sender, EventArgs args)
         {
             Button temp  = this.FindByName<Button>("tempButton");
-            temp.BackgroundColor = Color.Red;
+            temp.BackgroundColor = Color.Green;
 
 
         }
