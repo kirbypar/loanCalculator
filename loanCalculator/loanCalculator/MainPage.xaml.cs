@@ -12,14 +12,14 @@ namespace loanCalculator
     {
         public MainPage()
         {
+
             InitializeComponent();
         }
 
         void OnButtonClicked(object sender, EventArgs args)
         {
             Button temp  = this.FindByName<Button>("tempButton");
-            temp.BackgroundColor = Color.Green;
-
+            Navigation.PushAsync(new pmt());
 
         }
     }

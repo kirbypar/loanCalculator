@@ -19,7 +19,7 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
-        <Button Text="Click me for new page" FontSize="Title" Padding="30, 10, 30, 10" Clicked="OnButtonClicked" x:Name="tempButton"/>
+        <Button Text="Click me for new page" Padding="30, 10, 30, 10" Clicked="OnButtonClicked" x:Name="tempButton"/>
     </StackLayout>
 
 </ContentPage>
